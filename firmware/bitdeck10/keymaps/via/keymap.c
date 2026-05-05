@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_LOWER] = LAYOUT(KC_MUTE,
         KC_WREF,        C(KC_R),        KC_WBAK,        KC_WFWD,        TO(_BASE),
-        C(KC_T),        C(KC_W),        LCS(KC_LEFT),   LCS(KC_RIGHT),  TO(_RAISE)
+        C(KC_T),        C(KC_W),        LCS(KC_TAB),    C(KC_TAB),      TO(_RAISE)
     ),
 
     /* For YouTube
@@ -85,7 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_ADJUST] = LAYOUT(KC_MUTE,
         C(KC_C),        C(KC_V),        C(KC_Z),        C(KC_Y),        TO(_RAISE),
-        LSA(JP_MINS),   LCS(KC_V),      C(KC_PGDN),     C(KC_PGUP),     TO(_BASE)
+        LSA(JP_MINS),   LCS(KC_V),      C(KC_PGUP),     C(KC_PGDN),     TO(_BASE)
     )
 };
 
