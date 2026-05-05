@@ -626,7 +626,7 @@ Excelを想定したキーマップ
     <td width="150">RAISEレイヤーへ</td>
   </tr>
   <tr>
-    <td width="150">合計※<br/>CTRL + SHIFT + -</td>
+    <td width="150">合計※<br/>ALT + SHIFT + -</td>
     <td width="150">値の貼り付け<br/>CTRL + SHIFT + V</td>
     <td width="150">前シートに移動<br/>CTRL + PGUP</td>
     <td width="150">次シートに移動<br/>CTRL + PGDN</td>
