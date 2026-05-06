@@ -125,7 +125,7 @@
     </tr>
     <tr>
       <td>小信号用ダイオード 1SS178</td>
-      <td style="text-align:right;">10</td>
+      <td style="text-align:right;">11</td>
       <td style="text-align:center;">
         <a href="image/diodes.jpg">
           <img width=80 height=60 src="image/diodes.jpg">
@@ -203,7 +203,9 @@
       </td>
     </tr>
     <tr>
-      <td>ピンヘッダー 1x4</td>
+      <td>ピンヘッダー 1x4<br/>
+        OLED同梱のものと別の金色の足の方を使用
+      </td>
       <td style="text-align:right;">1</td>
       <td style="text-align:center;">
         <a href="image/4pin-header.jpg">
@@ -212,7 +214,10 @@
       </td>
     </tr>
     <tr>
-      <td>ピンヘッダー 1x7<br/><strong>※位置合わせ用：半田付けしません</strong></td>
+      <td>ピンヘッダー 1x7<br/>
+        <strong>※位置合わせ用：半田付けしません</strong><br/>
+        XIAO RP2040付属の場合は2個、XAIOのケースに同梱されています
+      </td>
       <td style="text-align:right;">1</td>
       <td style="text-align:center;">
         <a href="image/7pin-header.jpg">
@@ -243,7 +248,7 @@
       </td>
     </tr>
     <tr>
-      <td>ゴムシート 3x10x2mm</td>
+      <td>ゴムシート 約3x10x2mm</td>
       <td style="text-align:right;">1</td>
       <td style="text-align:center;">
         <a href="image/rubber.jpg">
@@ -406,6 +411,10 @@ src="image/2040_soldering05.jpg"></a>
 #### OLED
 
 OLEDはピンヘッダを介して基板に取り付けます。
+
+※ピンヘッダはOLED付属のものではなく、OLEDと別に梱包してある金色の足のものを使用してください。
+OLED付属のピンヘッダで取り付けてしまい、ケースと干渉した場合は、ピンヘッダの干渉している箇所をニッパーでカットしてください。
+
 まずはOLEDの裏面からピンヘッダの短い方の足を差し込みます。
 
 <a href="image/oled_soldering01.jpg"><img width=300 height=200 src="image/oled_soldering01.jpg"></a>
